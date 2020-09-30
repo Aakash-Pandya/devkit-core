@@ -1,0 +1,43 @@
+{
+    "name": "@sitcs/ng-devkit-core",
+    "version": "0.100.1",
+    "description": "Angular DevKit - Core Utility Library for SITCS Schematics",
+    "main": "src/index.js",
+    "typings": "src/index.d.ts",
+    "readme": "README.md",
+    "markdown": "github",
+    "license": "LICENSE",
+    "author": "Shelby M. Smull - Owner @ Smull IT Consulting Services",
+    "contributors": [
+        "Shelby M. Smull - Owner @ Smull IT Consulting Services"
+    ],
+    "maintainers": [
+        "Shelby M. Smull - Owner @ Smull IT Consulting Services"
+    ],
+    "scripts": {
+        "b": "cls && tsc -p tsconfig.json",
+        "t": "cls && npm run b && jasmine src/**/*_spec.js",
+        "p": "cls && npm run t && npm pack",
+        "push": "cls && npm run t && npm publish && npm i -g @sitcs/ng-devkit-core"
+    },
+    "repository": {
+        "type": "Git",
+        "url": "https://github.com/smullitconsulting/Angular"
+    },
+    "dependencies": {
+        "@types/jasmine": "^3.5.14",
+        "@types/node": "^14.11.2",
+        "ajv": "^6.12.5",
+        "fast-json-stable-stringify": "^2.1.0",
+        "magic-string": "^0.25.7",
+        "rxjs": "^6.6.3",
+        "source-map": "^0.7.3",
+        "tslib": "^ 2.0.1",
+        "typescript": "^4.0.3"
+    },
+    "devDependencies": {
+        "@angular-devkit/core": "^10.1.2",
+        "codelyzer": "6.0.0",
+        "seedrandom": "^3.0.5"
+    }
+}

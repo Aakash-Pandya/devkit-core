@@ -1,0 +1,25 @@
+# Compiler
+_tsc/
+
+# Packages
+node_modules/
+
+# Source Files
+code/src/**/*.js
+code/node/**/*.js
+
+code/src/**/*.d.ts
+code/node/**/*.d.ts
+
+# IDEs
+.idea/
+jsconfig.json
+.vscode/
+
+# Misc
+npm-debug.log*
+yarn-error.log*
+
+# Mac OSX Finder files.
+**/.DS_Store
+.DS_Store
