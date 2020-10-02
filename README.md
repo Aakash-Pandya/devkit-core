@@ -139,7 +139,7 @@ export function createWorkspaceHost( host: virtualFs.Host ): WorkspaceHost;
 
 ## Usage Example
 
-To demonstrate the usage of the API, the following code will show how to add a option property to a build target for an application.
+To demonstrate the usage of the API, the following code will show how to add an option property to a build target for an application.
 
 ```ts
 import { NodeJsSyncHost } from '@angular-devkit/core/node';
